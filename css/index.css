@@ -3,7 +3,10 @@
  */
 body {
   font-family: 'Lato', sans-serif;
-  padding-top: 54px; }
+  padding-top: 54px; 
+  font-weight: 300;
+  font-size: 1.02rem;
+}
 
 @media (min-width: 992px) {
   body {
@@ -27,8 +30,17 @@ h1 {
 h2 {
   font-size: 3.5rem; }
 
+p {
+  margin-bottom: 0.7rem;
+}
+
+.resume-item h3,
+.resume-item h4,
+.resume-item h5 {
+  text-transform: none;
+}
+
 .subheading {
-  text-transform: uppercase;
   font-weight: 300;
   font-family: 'Lato', sans-serif;
   font-size: 1.35rem; }
@@ -44,6 +56,11 @@ h2 {
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
     color: #BD5D38; }
+
+
+#sideNav {
+  background-color: white;
+}
 
 #sideNav .navbar-nav .nav-item.header {
   font-weight: 400;
@@ -90,24 +107,56 @@ h2 {
           #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
             display: block; } }
 
+.navbar-toggler-icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+    background-image: url('/img/burgerIcon.png'); }
+
+section.resume-section:first-of-type {
+  margin-top: 100px;
+}
+
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important; }
-  section.resume-section .resume-item .resume-date {
+  border-bottom: 1px solid #dee2e6; }
+  section.resume-section .resume-item .resume-right {
     min-width: none; }
 
 @media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh; }
-    section.resume-section .resume-item .resume-date {
+  section.resume-section {}
+    section.resume-section .resume-item .resume-right {
       min-width: 18rem; } }
+      section.resume-section .resume-item .resume-right p {
+        margin-bottom: 0; 
+        color: black !important; } }
 
 @media (min-width: 992px) {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important; } }
 
+.resume-item-explainer {
+  .margin-top: -0.9rem;
+  color: gray;
+  font-style: italic;
+}
+
+.resume-item.education {
+  margin-bottom: 1rem !important;
+}
+
+.education p {
+  margin-bottom: 0 !important;
+}
+
+
+#handle-div img, #handle-div .img {
+  width: 25px;
+  height: 25px;
+  margin-left: 0;
+  margin-right: 10px;
+}
 
 .text-primary {
   color: black !important; }
