@@ -34,6 +34,20 @@ p {
   margin-bottom: 0.7rem;
 }
 
+p.resume-item-explainer {
+  margin-top: -0.9rem;
+  color: gray;
+  font-style: italic;
+}
+#talks p.resume-item-explainer {
+  margin-top: 0;
+  color: gray;
+  font-style: italic;
+}
+#talks .row {
+  margin-top: 10px;
+}
+
 .resume-item h3,
 .resume-item h4,
 .resume-item h5 {
@@ -60,6 +74,7 @@ p {
 
 #sideNav {
   background-color: white;
+  border-bottom: 1px solid gainsboro;
 }
 
 #sideNav .navbar-nav .nav-item.header {
@@ -126,7 +141,7 @@ section.resume-section {
 @media (min-width: 768px) {
   section.resume-section {}
     section.resume-section .resume-item .resume-right {
-      min-width: 18rem; } }
+      min-width: 15rem; } }
       section.resume-section .resume-item .resume-right p {
         margin-bottom: 0; 
         color: black !important; } }
@@ -135,12 +150,6 @@ section.resume-section {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important; } }
-
-.resume-item-explainer {
-  .margin-top: -0.9rem;
-  color: gray;
-  font-style: italic;
-}
 
 .resume-item.education {
   margin-bottom: 1rem !important;
@@ -165,4 +174,9 @@ a {
   color: black; }
   a:hover, a:focus, a:active {
     color: gray; }
+
+p a, .resume-item li a {
+  color: purple;
+  text-decoration: underline;
+}
 
