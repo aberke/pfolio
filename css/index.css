@@ -127,7 +127,7 @@ p.resume-item-explainer {
     height: 50px;
     border: 1px solid gainsboro;
     border-radius: 6px;
-    background-image: url('/img/burgerIcon.png'); }
+    background-image: url('../img/burgerIcon.png'); }
 
 section.resume-section:first-of-type {
   margin-top: 100px;
