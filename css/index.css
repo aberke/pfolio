@@ -170,6 +170,9 @@ section.resume-section {
 .text-primary {
   color: black !important; }
 
+.larger-font {
+  font-size: 1.1rem; }
+
 a {
   color: black; }
   a:hover, a:focus, a:active {
