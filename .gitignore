@@ -1,3 +1,4 @@
+.DS_STORE
 
 # Avoid node modules
 node_modules/*
