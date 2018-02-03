@@ -167,6 +167,14 @@ section.resume-section {
   margin-right: 10px;
 }
 
+#talks .more-recent-events {
+  margin-bottom: 25px;
+}
+
+#pioneer-works-img-row img {
+  padding: 2px;
+}
+
 .text-primary {
   color: black !important; }
 
